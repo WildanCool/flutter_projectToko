@@ -1,0 +1,86 @@
+Padding(
+        padding: const EdgeInsets.all(16),
+        child: GridView.count(
+          crossAxisCount: 2,
+          crossAxisSpacing: 16,
+          mainAxisSpacing: 16,
+          children: [
+            // Contoh item produk
+            CartBarang(
+              fotoProduk: "images/product1.jpeg",
+              title: "Produk A",
+              price: "Rp 50.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product2.jpeg",
+              title: "Produk B",
+              price: "Rp 75.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product3.jpeg",
+              title: "Produk C",
+              price: "Rp 100.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product4.jpeg",
+              title: "Produk D",
+              price: "Rp 120.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product5.jpeg",
+              title: "Produk D",
+              price: "Rp 120.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product1.jpeg",
+              title: "Produk A",
+              price: "Rp 50.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product2.jpeg",
+              title: "Produk B",
+              price: "Rp 75.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product3.jpeg",
+              title: "Produk C",
+              price: "Rp 100.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product4.jpeg",
+              title: "Produk D",
+              price: "Rp 120.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product5.jpeg",
+              title: "Produk D",
+              price: "Rp 120.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product1.jpeg",
+              title: "Produk A",
+              price: "Rp 50.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product2.jpeg",
+              title: "Produk B",
+              price: "Rp 75.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product3.jpeg",
+              title: "Produk C",
+              price: "Rp 100.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product4.jpeg",
+              title: "Produk D",
+              price: "Rp 120.000",
+            ),
+            CartBarang(
+              fotoProduk: "images/product5.jpeg",
+              title: "Produk D",
+              price: "Rp 120.000",
+            ),
+          ],
+        ),
+      ),
